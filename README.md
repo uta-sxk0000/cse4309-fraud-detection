@@ -90,9 +90,3 @@ The supplied output chose no weighting for all three families. Unweighted traini
 The test set contains only 95 fraud cases. Random Forest has the highest measured F1, but one split is insufficient to prove a universal winner. Its approximate 95% recall interval is 65.2% to 82.4%. Random splits do not simulate future deployment, and PCA feature names limit explanations. See the report for the full discussion.
 
 Average precision (AP) uses scikit-learn's non-interpolated definition. It is not trapezoidal PR-AUC. Accuracy, precision, recall, F1, ROC-AUC, AP, and confusion counts use the same test data. The positive class is fraud. Threshold equality predicts fraud.
-
-## Before presenting or submitting
-
-Review the code and rerun it if your course expects your own execution. Replace the proposed contribution plan with truthful descriptions of completed work. Confirm the project code 4309-04 with your course, because the supplied PDF names Fraud Detection as Topic 5. If another team uses the same dataset, confirm a meaningfully different question or approach. Follow your instructor's expectations for acknowledging AI assistance. No instructor name, deadline, or completed individual work was invented.
-
-The analysis, code, report, and presentation were prepared with AI assistance. The project is published on GitHub at the team's request. No files were submitted to the instructor or sent to team members.
