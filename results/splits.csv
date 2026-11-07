@@ -1,0 +1,4 @@
+split,rows,legitimate,fraud
+train,170235,169951,284
+validation,56745,56651,94
+test,56746,56651,95

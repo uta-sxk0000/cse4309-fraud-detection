@@ -1,0 +1,10 @@
+source_row,case_type,actual,model,score,threshold,prediction,correct
+541,true_positive,1,Logistic Regression,0.252418906871628,0.11694360985870078,1,True
+8625,false_positive,0,Logistic Regression,0.08806271936269974,0.11694360985870078,0,True
+4920,false_negative,1,Logistic Regression,0.002226869249241705,0.11694360985870078,0,False
+541,true_positive,1,Decision Tree,1.0,0.8,1,True
+8625,false_positive,0,Decision Tree,0.2727272727272727,0.8,0,True
+4920,false_negative,1,Decision Tree,0.2631578947368421,0.8,0,False
+541,true_positive,1,Random Forest,0.5506162305292307,0.34966666666666657,1,True
+8625,false_positive,0,Random Forest,0.3781225071225071,0.34966666666666657,1,False
+4920,false_negative,1,Random Forest,0.3320115949915452,0.34966666666666657,0,False

@@ -1,0 +1,20 @@
+# Local environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Downloaded full dataset; acquisition instructions are in DATASET.md
+data/
+creditcard.csv
+
+# Local secrets and editor state
+.env
+.env.*
+.vscode/
+
+# Keep optional reruns separate from the recorded experiment
+rerun/

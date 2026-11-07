@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "file": "logistic_regression.joblib",
+      "bytes": 2190
+    },
+    {
+      "model": "Decision Tree",
+      "file": "decision_tree.joblib",
+      "bytes": 3201
+    },
+    {
+      "model": "Random Forest",
+      "file": "random_forest.joblib",
+      "bytes": 657480
+    }
+  ],
+  "selection": "Earliest source row in each Random Forest category: TP, FP, FN. Illustrative, not random.",
+  "verified": "All three saved models reproduce all recorded test scores to absolute tolerance 1e-12 and all binary predictions exactly."
+}
